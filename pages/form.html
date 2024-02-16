@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <body background="../multimedia/img/bg4.jpg"></bg>
+        <title>Data Booking Kamar</title> 
+        <meta name="viewport" content="width=device-width" />
+    </head>
+    <body>
+        <font face="ubuntu">
+            <h1 align="center">KOST PAVILIUN ANANDA</h1>
+            <hr />
+            <form>
+                <table align="center" border="0" cellspacing="0" cellpading="5" 
+                bgcolor="#ffb6c1">
+                <tr><th colspan="2" align="center">Data Booking Kamar <hr /></th></tr>
+                <tr>
+                    <td>Nama</td>
+                    <td>
+                        <input type="text" name="namalengkap" value="" size="30"
+                        maxlength="100" placeholder="Nama Lengkap" tabindex="1"  />
+                    </td>
+                </tr>
+                <tr>
+                    <td>No Handphone</td>
+                    <td>
+                        <input type="text" name="NoHandphoe" value="" size="30"
+                        maxlength="100" placeholder="No Handphone" tabindex="1"  />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Booking</td>
+                    <td>
+                        <input type="date" name="tanggallahir" value="" tabindex="3" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>
+                        <select name="status">
+                            <optgroup label="Status">Status</optgroup>
+                            <option value="P">PELAJAR</option>
+                            <option value="B">BEKERJA</option>
+                            <option value="TB">TIDAK BEKERJA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Type Kamar</td>
+                    <td>
+                        <select name="status">
+                            <optgroup label="Type Kamar">Type Kamar</optgroup>
+                            <option value="K1">Kamar 1</option>
+                            <option value="K2">Kamar 2</option>
+                            <option value="K3">Kamar 3</option>
+                        </select>
+                    </td>
+                </tr>
+                    <td>Alamat</td>
+                    <td>
+                        <textarea name="alamat" placeholder="Alamat Lengkap" cols="30"
+                        rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>  
+                <tr align="center">
+                    <td colspan="2">
+                        <hr />
+                        <button type="submit">Simpan</button>
+                        <button type="reset">Reset</button>
+                        <a href="../index.html">Kembali</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </font>
+    </body>
+</html>
